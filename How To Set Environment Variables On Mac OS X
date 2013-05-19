@@ -1,0 +1,26 @@
+In Mac OS X, you can set the environment variables in one of the following files :
+
+~/.bashrc
+~/.bash_profile
+~/.profile
+By default, Mac OS X does not has above files, you need to create it manually.
+
+$PATH example
+This example shows you how to set “mongodb/bin” folder to the existing $PATH environment variable.
+
+$ echo $PATH
+/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+ 
+ 
+$cd ~
+$pwd
+/Users/QETHAN
+$touch .bash_profile
+$vim .bash_profile
+ 
+export NODE_DEV=development
+ 
+##restart your terminal
+$ echo $NODE_DEV
+
+Done.
