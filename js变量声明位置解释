@@ -1,0 +1,15 @@
+<html>
+  <head>
+  	<script type="text/javascript">
+			alert(h);//function.....
+			alert(a);//undefined
+ 
+			var a = 3;
+			function h() {
+				alert('22');
+			}
+		</script>
+	</head>
+</html>
+ 
+js代码解释器会爸函数声明放在顶部，普通变量声明按照代码所在位置解释
